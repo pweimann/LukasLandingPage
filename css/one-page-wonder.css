@@ -166,6 +166,10 @@ header.masthead .bg-circle-4 {
   padding: 2rem;
 }
 
+#impressum {
+  margin-top: 10vh;
+}
+
 .text-focus-in {
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
