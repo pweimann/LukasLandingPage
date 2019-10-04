@@ -11,6 +11,14 @@
   padding: 2rem;
 }
 
+.main-content {
+  margin-top: 10vh;
+}
+
+.flex-center {
+  text-align: center;
+}
+
 #impressum {
   margin-top: 10vh;
 }

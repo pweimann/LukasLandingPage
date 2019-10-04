@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+@import url(~@fortawesome/fontawesome-free/css/all.css);
 body {
   font-family: 'Lato';
 }
@@ -164,6 +165,14 @@ header.masthead .bg-circle-4 {
   margin-top: 10vh;
   margin-bottom: 4rem;
   padding: 2rem;
+}
+
+.main-content {
+  margin-top: 10vh;
+}
+
+.flex-center {
+  text-align: center;
 }
 
 #impressum {
