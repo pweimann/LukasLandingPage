@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
-@import url(~@fortawesome/fontawesome-free/css/all.css);
 body {
   font-family: 'Lato';
 }
@@ -46,6 +45,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  margin-bottom: auto;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -160,6 +160,10 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
+.margin-t-a {
+  margin-top: auto;
+}
+
 .email-form {
   background-color: lightgray;
   margin-top: 10vh;
@@ -173,6 +177,14 @@ header.masthead .bg-circle-4 {
 
 .flex-center {
   text-align: center;
+}
+
+.rounded-square {
+  border-radius: 50px;
+}
+
+.hidden {
+  display: none;
 }
 
 #impressum {

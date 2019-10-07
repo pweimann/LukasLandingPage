@@ -1,3 +1,7 @@
+.margin-t-a {
+  margin-top: auto;
+}
+
 .email-form {
   background-color: lightgray;
   margin-top: 10vh;
@@ -11,6 +15,14 @@
 
 .flex-center {
   text-align: center;
+}
+
+.rounded-square {
+  border-radius: 50px;
+}
+
+.hidden {
+  display: none;
 }
 
 #impressum {
