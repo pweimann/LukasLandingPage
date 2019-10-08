@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+* {
+  box-sizing: border-box;
+}
+
 .margin-t-a {
   margin-top: auto;
 }
@@ -15,8 +19,14 @@
   padding: 2rem;
 }
 
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .main-content {
-  margin-top: 10vh;
+  margin-top: 6rem;
 }
 
 .flex-center {
@@ -36,6 +46,14 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.service-box {
+  background-color: lightgrey;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 #impressum {
