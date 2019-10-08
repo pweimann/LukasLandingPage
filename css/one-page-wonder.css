@@ -197,6 +197,10 @@ header.masthead .bg-circle-4 {
   display: none;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .center {
   position: absolute;
   left: 50%;
@@ -210,6 +214,15 @@ header.masthead .bg-circle-4 {
   margin-bottom: 3rem;
   margin-right: 2rem;
   box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.team {
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.team ul {
+  list-style: none;
 }
 
 #impressum {

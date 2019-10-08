@@ -35,6 +35,10 @@
   display: none;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .center {
   position: absolute;
   left: 50%;
@@ -50,9 +54,13 @@
   box-shadow: 8px 5px 20px rgba(0,0,0, 0.5);
 }
 
-.additional-information {
+.team {
+  width: 5rem;
+  margin-right: 2rem;
 
-
+  ul {
+    list-style: none;
+  }
 }
 
 #impressum {
