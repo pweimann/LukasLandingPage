@@ -60,7 +60,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(grey, transparent 90%), linear-gradient(to top, #fff, transparent 90%), url("../img/header-bg.jpg");
+  background: linear-gradient(to top, #fff, transparent 40%), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -232,7 +232,6 @@ header.masthead .masthead-content .masthead-subheading {
   background-color: rgba(0, 0, 0, 0.9);
   /* Black background with opacity */
   z-index: 2;
-  /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
   /* Add a pointer on hover */
 }

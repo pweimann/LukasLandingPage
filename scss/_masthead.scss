@@ -3,8 +3,9 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(grey, transparent 90%),
-          linear-gradient(to top, #fff, transparent 90%),
+  background:
+    //linear-gradient(grey, transparent 90%),
+          linear-gradient(to top, #fff, transparent 40%),
         url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
