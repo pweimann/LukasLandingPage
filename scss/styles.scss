@@ -106,7 +106,9 @@
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background:
+    linear-gradient(to top, #fff, transparent)
+  ,linear-gradient(to right, #0062E6, #33AEFF);
 }
 
 .pricing .card {
@@ -165,4 +167,8 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
+}
+
+.season-tickets table {
+  width: 15rem;
 }
