@@ -154,6 +154,10 @@ header.masthead .masthead-content .masthead-subheading {
   text-align: center;
 }
 
+.white-text {
+  color: white;
+}
+
 .rounded-square {
   border-radius: 50px;
 }
@@ -231,6 +235,10 @@ header.masthead .masthead-content .masthead-subheading {
   /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
   /* Add a pointer on hover */
+}
+
+#contact-card {
+  background-color: slategrey;
 }
 
 section.pricing {
