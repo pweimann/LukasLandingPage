@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/one-page-wonder.min.css" rel="stylesheet">
+    <script src="../js/navbar.js"></script>
 
 </head>
 
@@ -35,23 +36,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item team">
+                    <a class="nav-link clickable" onclick="toggleExpandableNavigation()">Team</a>
+                    <ul id="expandableNavigation" class="hidden ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Lukas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../static/secondTrainer.html">Peter</a>
+                        </li>
+                    </ul>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Trainingsorte</a>
+                    <a class="nav-link" href="../static/locations.html">Trainingsorte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Galerie</a>
+                    <a class="nav-link" href="../static/gallery.html">Galerie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Trainingspläne</a>
                 </li>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Angebot</a>
+                    <a class="nav-link" href="../static/services.html">Angebot</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-me.html">Kontakt</a>
+                    <a class="nav-link" href="../static/contact-me.html">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -127,5 +136,15 @@
         </div>
     </section>
 </main>
+<!-- Footer -->
+<footer class="py-3 bg-black">
+    <!-- Footer Elements -->
+    <div class="container">
+        <p class="m-0 margin-t-a text-center text-white small">Copyright &copy; Your Website 2019 | <a
+                href="../static/impressum.html">Impressum</a></p>
+    </div>
+
+    <!-- /.container -->
+</footer>
 </body>
 </html>

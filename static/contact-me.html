@@ -21,6 +21,10 @@
     <link href="../css/one-page-wonder.min.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 
+    <script src="../js/navbar.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
@@ -28,20 +32,38 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
         <a class="navbar-brand" href="../index.html">Lukas Paszkowsky</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarResponsive" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item team">
+                    <a class="nav-link clickable" onclick="toggleExpandableNavigation()">Team</a>
+                    <ul class="hidden ml-auto" id="expandableNavigation">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Lukas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../static/secondTrainer.html">Peter</a>
+                        </li>
+                    </ul>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-me.html">Contact Me</a>
+                    <a class="nav-link" href="../static/locations.html">Trainingsorte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="../static/gallery.html">Galerie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Trainingspläne</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../static/services.html">Angebot</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../static/contact-me.html">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -54,26 +76,30 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
                     <div class="p-5">
-                        <img class="img-fluid rounded-circle" src="../img/examplePicture.jpg" alt="">
+                        <img alt="" class="img-fluid rounded-circle" src="../img/examplePicture.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
-                        <div id="contact-card" class="card">
+                        <div class="card" id="contact-card">
                             <div class="card-body contact text-center h-100 white-text">
                                 <h2 class="display-5 my-4 pb-2">Kontakt</h2>
-                                <p class="p-4">Sie haben Fragen oder möchten ihr erstes Training mit uns vereinbaren? Dann melden
+                                <p class="mb-5">Sie haben Fragen oder möchten ihr erstes Training mit uns
+                                    vereinbaren? Dann melden
                                     Sie sich
                                     doch bei uns! Wir freuen uns auf ihre Nachricht.</p>
                                 <ul class="text-lg-left list-unstyled ml-4">
                                     <li>
-                                        <p><i class="fas fa-map-marker-alt pr-2"></i>Residenzstraße 100, 13409 Berlin</p>
+                                        <p><i class="fas fa-map-marker-alt pr-2"></i>Residenzstraße 100, 13409
+                                            Berlin</p>
                                     </li>
                                     <li>
                                         <p><i class="fas fa-phone pr-2"></i>0173/12345678</p>
                                     </li>
                                     <li>
-                                        <p><i class="fas fa-envelope pr-2"></i><a href="mailto:lukas@example.com" class="white-text">lukas@example.com</a></p>
+                                        <p><i class="fas fa-envelope pr-2"></i><a class="white-text"
+                                                                                  href="mailto:lukas@example.com">lukas@example.com</a>
+                                        </p>
                                     </li>
                                 </ul>
                                 <hr class="hr-light my-4">
@@ -107,6 +133,16 @@
     </section>
 
 </main>
+<!-- Footer -->
+<footer class="py-3 bg-black">
+    <!-- Footer Elements -->
+    <div class="container">
+        <p class="m-0 margin-t-a text-center text-white small">Copyright &copy; Your Website 2019 | <a
+                href="../static/impressum.html">Impressum</a></p>
+    </div>
+
+    <!-- /.container -->
+</footer>
 
 </body>
 </html>

@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100vh;
+}
+
 .margin-t-a {
   margin-top: auto;
 }
@@ -26,7 +30,7 @@
 }
 
 .main-content {
-  margin-top: 6rem;
+  padding-top: 4.2rem;
 }
 
 .flex-center {

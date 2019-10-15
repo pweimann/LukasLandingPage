@@ -129,6 +129,10 @@ header.masthead .masthead-content .masthead-subheading {
   box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100vh;
+}
+
 .margin-t-a {
   margin-top: auto;
 }
@@ -147,7 +151,7 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .main-content {
-  margin-top: 6rem;
+  padding-top: 4.2rem;
 }
 
 .flex-center {

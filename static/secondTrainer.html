@@ -20,7 +20,8 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/one-page-wonder.min.css" rel="stylesheet">
-
+    <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <script src="../js/navbar.js"></script>
 </head>
 
 <body>
@@ -35,28 +36,121 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item team">
+                    <a class="nav-link clickable" onclick="toggleExpandableNavigation()">Team</a>
+                    <ul id="expandableNavigation" class="hidden ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Lukas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Peter</a>
+                        </li>
+                    </ul>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Trainingsorte</a>
+                    <a class="nav-link" href="../static/locations.html">Trainingsorte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="static/galerie.html">Galerie</a>
+                    <a class="nav-link" href="../static/gallery.html">Galerie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Trainingspläne</a>
                 </li>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Angebot</a>
+                    <a class="nav-link" href="../static/services.html">Angebot</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="static/contact-me.html">Kontakt</a>
+                    <a class="nav-link" href="../static/contact-me.html">Kontakt</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+        <div class="container">
+            <h1 class="masthead-heading mb-0 text-focus-in">Trainer Paul Weimann</h1>
+            <h2 class="masthead-subheading mb-0 text-focus-in">Lorem ipsum</h2>
+            <a href="../static/contact-me.html" class="btn btn-primary btn-xl rounded-pill mt-5 text-focus-in">Contact Me</a>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="../img/examplePicture.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Lorem ipsum dolor sit amet..</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
+                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                        voluptatum molestiae adipisci, beatae obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="../img/examplePicture.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">Lorem ipsum dolor!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
+                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                        voluptatum molestiae adipisci, beatae obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="../img/examplePicture.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Lorem ipsum dolor sit!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
+                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                        voluptatum molestiae adipisci, beatae obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3 bg-black">
+    <!-- Footer Elements -->
+    <div class="container">
+        <p class="m-0 margin-t-a text-center text-white small">Copyright &copy; Your Website 2019 | <a
+                href="../static/impressum.html">Impressum</a></p>
+    </div>
+
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
