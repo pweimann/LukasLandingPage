@@ -51,7 +51,7 @@
   padding: 1rem;
   margin-bottom: 3rem;
   margin-right: 2rem;
-  box-shadow: 8px 5px 20px rgba(0,0,0, 0.5);
+  box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .team {
@@ -99,14 +99,16 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0, 0.9); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: linear-gradient(grey, transparent 90%),
+  linear-gradient(to top, #fff, transparent 90%),
+  linear-gradient(to right, #0062E6, #33AEFF);
 }
 
 .pricing .card {

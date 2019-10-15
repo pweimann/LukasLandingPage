@@ -1,4 +1,4 @@
-function showImage(image){
+function showImage(image) {
     let overlay = document.getElementById("overlay");
     overlay.keypress = checkEscKeyClose;
     overlay.style.display = "block";
@@ -10,17 +10,18 @@ function showImage(image){
     overlay.appendChild(htmlImageElement);
 }
 
-function closeOverlay(){
+function closeOverlay() {
     let overlay = document.getElementById('overlay');
     //remove last image
     overlay.removeChild(overlay.firstChild);
     overlay.style.display = 'none';
 }
 
-function checkEscKeyClose(keyEvent) {
-    console.log(keyEvent);
-    alert(keyEvent);
-    if(keyEvent.keyCode === 27){ // esc has been pressed -> close overlay
-        closeOverlay();
+function checkEscKeyClose() {
+    window.onkeyup = function (keyEvent) {
+        console.log(keyEvent);
+        if (keyEvent.key === 27) { // esc has been pressed -> close overlay
+            closeOverlay();
+        }
     }
 }
