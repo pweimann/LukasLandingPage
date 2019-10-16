@@ -91,13 +91,25 @@ html, body {
   }
 }
 
+//Animation styles
+
 .gallery img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery img {
+  border: none;
+  padding: 0;
+  max-width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 
 }
 
-#impressum {
-  margin-top: 10vh;
-}
+//Id selectors
 
 #overlay {
   position: fixed; /* Sit on top of the page content */
@@ -185,6 +197,8 @@ section.pricing {
 }
 
 //settings for smaller screens
+
+//TODO remove all hr elements -> display:none
 
 @media (max-width: 768px) {
   .card-body {
