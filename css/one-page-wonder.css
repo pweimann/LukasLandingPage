@@ -60,7 +60,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(to top, #fff, transparent 40%), url("../img/header-bg.jpg");
+  background: linear-gradient(#777777, transparent 40%), linear-gradient(to top, #fff, transparent 40%), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -223,7 +223,6 @@ html, body {
 .gallery img {
   border: none;
   padding: 0;
-  max-width: 100%;
   transform: scale(1);
   transition: .3s ease-in-out;
 }

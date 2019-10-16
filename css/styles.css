@@ -102,7 +102,6 @@ html, body {
 .gallery img {
   border: none;
   padding: 0;
-  max-width: 100%;
   transform: scale(1);
   transition: .3s ease-in-out;
 }
