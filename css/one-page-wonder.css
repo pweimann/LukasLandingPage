@@ -60,7 +60,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(#777777, transparent 40%), linear-gradient(to top, #fff, transparent 40%), url("../img/header-bg.jpg");
+  background: url("../img/AdobeStock_288863990_Preview.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -73,6 +73,7 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
+  text-align: left;
   font-size: 4rem;
 }
 
@@ -225,6 +226,7 @@ html, body {
 }
 
 .gallery img {
+  width: 300px;
   border: none;
   padding: 0;
   transform: scale(1);
