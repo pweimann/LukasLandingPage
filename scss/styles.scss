@@ -114,6 +114,15 @@ html, body {
   transition: .3s ease-in-out;
 }
 
+.bq-berlin {
+  min-height: 100vh;
+  background:
+          url("../img/berlinmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 //Id selectors
 
 #overlay {
@@ -136,7 +145,11 @@ html, body {
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to top, #fff, transparent), linear-gradient(to right, #0062E6, #33AEFF);
+  background: // linear-gradient(to top, #fff, transparent), linear-gradient(to right, #0062E6, #33AEFF),
+  url("../img/preise.jpeg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .pricing .card {
