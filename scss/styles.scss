@@ -9,9 +9,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  min-height: 100vh;
-}
 .margin-t-a {
   margin-top: auto;
 }
@@ -27,6 +24,9 @@ html, body {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
+}
+.body-wrapper {
+  min-height: 100vh;
 }
 
 .main-content {
