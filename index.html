@@ -36,16 +36,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item team">
-                    <a class="nav-link clickable" onclick="toggleExpandableNavigation()">Team</a>
-                    <ul id="expandableNavigation" class="hidden ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Lukas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="static/secondTrainer.html">Peter</a>
-                        </li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Team
+                    </a>
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Lukas</a>
+                        <a class="dropdown-item" href="static/secondTrainer.html">Peter</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="static/locations.html">Trainingsorte</a>
                 </li>
@@ -54,7 +54,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="static/training-plans.html">Trainingspläne</a>
-                </li>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="static/services.html">Angebot</a>
@@ -130,7 +129,7 @@
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
                     <h2 class="display-4">Trainer Erfahrung</h2>
-                    <p>Mitlerweile gebe ich erfolgreich Coachings im Boxumfeld und vermittle mein Wissen aus meiner
+                    <p>Mitlerweile gebe ich erfolgreiche Coachings im Boxumfeld und vermittle mein Wissen aus meiner
                         Profikarriere weiter. Sei es der Wunsch mehr Selbstvertrauen zu gewinnen, deine boxerischen
                         Fähigkeiten zu verbessern oder einfach nur fitter zu werden, je nach dem was deine Ziele sind
                         wird das Training individuell auf dich
