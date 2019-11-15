@@ -96,6 +96,35 @@
   }
 }
 
+//navbar styling (overrides some bootstrap styles and customize)
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, .7);
+
+  .dropdown-item {
+    color: rgba(255, 255, 255, .5);
+  }
+
+  .dropdown-item:hover {
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .dropdown-item.active, .dropdown-item:active{
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .dropdown-item:active{
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+//end navbar styling
+
 //Animation styles
 
 .gallery img:hover {
@@ -308,6 +337,12 @@ section.pricing {
 
 @media (max-width: 768px) {
   .card-body {
+  }
+}
+
+@media (max-width: 767.98px) {
+  .question-banner p {
+    font-size: 2rem;
   }
 }
 

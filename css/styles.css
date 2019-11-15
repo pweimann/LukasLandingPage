@@ -99,6 +99,31 @@
   font-size: 3rem;
 }
 
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown-menu .dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  color: #fff;
+}
+
 .gallery img:hover {
   transform: scale(1.1);
 }
@@ -294,4 +319,10 @@ section.pricing {
 .container .card .face.face2 .content a:hover {
   background: #333;
   color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .question-banner p {
+    font-size: 2rem;
+  }
 }
