@@ -5,7 +5,8 @@ function showImage(image){
 
     let htmlImageElement = document.createElement("img");
     htmlImageElement.src = image.src;
-    htmlImageElement.style.maxWidth = '100%';
+    htmlImageElement.style.maxWidth = '90%';
+    htmlImageElement.style.maxHeight = '90%';
     htmlImageElement.classList.add('center');
     overlay.appendChild(htmlImageElement);
 }
