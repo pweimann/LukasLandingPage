@@ -1,6 +1,6 @@
 function showImage(image){
     let overlay = document.getElementById("overlay");
-    overlay.keypress = checkEscKeyClose;
+    overlay.addEventListener('keyPress', checkEscKeyClose);
     overlay.style.display = "block";
 
     let htmlImageElement = document.createElement("img");
@@ -19,8 +19,6 @@ function closeOverlay(){
 }
 
 function checkEscKeyClose(keyEvent) {
-    console.log(keyEvent);
-    alert(keyEvent);
     if(keyEvent.keyCode === 27){ // esc has been pressed -> close overlay
         closeOverlay();
     }
