@@ -41,6 +41,10 @@
   color: white;
 }
 
+.grey-text {
+  color: lightgrey;
+}
+
 .rounded-square {
   border-radius: 50px;
 }
@@ -170,6 +174,9 @@
 
 #contact-card {
   background-color: slategrey;
+  i:hover {
+    color: #fff;
+  }
 }
 
 section.pricing {
@@ -250,7 +257,6 @@ section.pricing {
 
 .container .card{
   position: relative;
-  cursor: pointer;
 }
 
 .container .card .face{
@@ -329,6 +335,7 @@ section.pricing {
   background: #333;
   color: #fff;
 }
+
 
 
 //settings for smaller screens
