@@ -149,8 +149,8 @@
 
 .bq-berlin {
   min-height: 100vh;
-  background:
-          url("../img/berlinmap.jpg");
+  //background:
+          //url("../img/optimized/berlin-map.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -334,6 +334,24 @@ section.pricing {
   color: #fff;
 }
 
+//sponsors container
+
+.sponsor-container {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.sponsor-container a {
+  margin: 2rem;
+}
+
+.sponsor-container a img {
+  width: 15rem;
+  height: 15rem;
+}
 
 
 //settings for smaller screens
@@ -342,6 +360,15 @@ section.pricing {
 
 @media (max-width: 768px) {
   .card-body {
+  }
+
+  .sponsor-container a {
+    margin: 2rem;
+  }
+
+  .sponsor-container a img {
+    width: 7rem;
+    height: 7rem;
   }
 }
 
