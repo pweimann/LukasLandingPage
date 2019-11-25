@@ -176,7 +176,6 @@
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to top, #fff, transparent), linear-gradient(to right, #0062E6, #33AEFF);
   background-repeat: no-repeat;
   background-size: cover;
 }
