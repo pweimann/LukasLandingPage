@@ -68,6 +68,7 @@ header.masthead {
 }
 
 header.masthead .masthead-content {
+  margin-left: 20rem;
   z-index: 1;
   position: relative;
 }
@@ -84,6 +85,9 @@ header.masthead .masthead-content .masthead-subheading {
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content {
+    margin-left: 26rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -297,7 +301,6 @@ header.masthead .masthead-content .masthead-subheading {
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to top, #fff, transparent), linear-gradient(to right, #0062E6, #33AEFF);
   background-repeat: no-repeat;
   background-size: cover;
 }
