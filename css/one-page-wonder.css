@@ -45,6 +45,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  margin-bottom: auto;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -59,7 +60,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -77,41 +78,6 @@ header.masthead .masthead-content .masthead-heading {
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
-}
-
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
-
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
 }
 
 @media (min-width: 992px) {
@@ -157,4 +123,412 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.debug {
+  border: 4px solid red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.margin-t-a {
+  margin-top: auto;
+}
+
+.email-form {
+  background-color: lightgray;
+  margin-top: 10vh;
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.body-wrapper {
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 4.2rem;
+}
+
+.flex-center {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.grey-text {
+  color: lightgrey;
+}
+
+.rounded-square {
+  border-radius: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.service-box {
+  background-color: lightgrey;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.team {
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.team ul {
+  list-style: none;
+}
+
+/**.contact-banner {
+  height: 15rem;
+  width: 100%;
+  background: url("../img/paper-2056027_1920.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+}*/
+.question-banner {
+  display: block;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 1rem;
+}
+
+.question-banner p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown-menu .dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  color: #fff;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.gallery img {
+  width: 300px;
+  border: none;
+  padding: 0;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+.bq-berlin {
+  min-height: 100vh;
+  background: url("../img/berlinmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  /* Hidden by default */
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black background with opacity */
+  z-index: 2;
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
+
+#contact-card {
+  background-color: slategrey;
+}
+
+#contact-card i:hover {
+  color: #fff;
+}
+
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to top, #fff, transparent), linear-gradient(to right, #0062E6, #33AEFF);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.card-container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  background: #ff0057;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .question-banner p {
+    font-size: 2rem;
+  }
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.kenburns-top {
+  -webkit-animation: kenburns-top 1s ease-out;
+  animation: kenburns-top 1s ease-out;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-30 21:27:49
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-10-16 14:38:48
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation kenburns-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
 }

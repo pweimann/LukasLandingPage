@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Galerie zum Personal Training in Berlin | Boxen Paszkowsky</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/one-page-wonder.min.css" rel="stylesheet">
+
+    <script src="../js/gallery.js"></script>
+
+</head>
+
+<body>
+<div class="body-wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Lukas Paszkowsky</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Team
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../index.html">Lukas</a>
+                            <a class="dropdown-item" href="secondTrainer.html">Peter</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="locations.html">Trainingsorte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="training-plans.html">Trainingspläne</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Angebot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-me.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation   -->
+
+    <main class="main-content">
+        <div id="overlay" onclick="closeOverlay()" onkeypress="checkEscKeyClose(event)"></div>
+
+        <!-- Photo gallery -->
+        <div class="container gallery">
+
+            <h2 class="display-5 mt-5 mb-0">Galerie</h2>
+            <hr class="mt-2 mb-5">
+
+            <div class="row text-center text-lg-left">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail pre-img clickable" src="../img/Plakat-Fight-Opetaia-vs-Paszkowsky.jpg"
+                             alt="Werbeplakat des Boxkampfes Opetaia gegen Lukas Paszykowsky."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/Offizielles-Wiegen-Lukas-Paszykowsky-GBA-Verband.jpg"
+                             alt="Lukas Paszykowsky beim offiziellen Wiegen vom Boxverband GBA."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Lukas-Paszykowsky-Boxing-photo.jpg"
+                             alt="Lukas Paszykowsky beim Posen nach dem erfolgreichen Boxkampf."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Lukas-Paszykowsky-Boxrec-Statistik.jpeg"
+                             alt="Die Boxen Statistik des sportlers Lukas Paszykowsky."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Lukas-Paszykowsky-Boxerstellung-Profil.jpg"
+                             alt="Profilansicht des Boxers Lukas Paszykowsky in Boxerstellung."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/Gegenüberstellung-Lukas-Paszykowsky-GBA-Verband.PNG"
+                             alt="Gegenüberstellung vor dem GBA Boxkampf mit Lukas Paszykowsky."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Lukas-Paszykowsky-Anzug.jpg"
+                             alt="Lukas Paszykowsky im Anzug." onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/Paszykowsky-Boxen-Kampfszene.jpeg"
+                             alt="Paszykowsky beim Boxen, trifft seinen Gegner und blockt den gegnerischen Schlag."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Lukas-Paszykowsky-Siegerpose.PNG"
+                             alt="Lukas Paszykowsky bei einem Boxen-Wettkampf in einer Siegerpose."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/Lukas-Paszykowsky-Gegenüberstellung-Boxen-Wettkampf.JPEG"
+                             alt="Lukas Paszykowsky posiert bei einer Gegenüberstellung eines profi Boxevents."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <!--    TODO replace            -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/Lukas-Paszykowsky-Siegerpose-Boxen-Wettkampf.jpeg"
+                             alt="Lukas Paszykowsky zeigt die Siegerpose beim offiziellen Wiegen."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Boxen-Wettkampf-Beljo-vs-Lukas-Paszykowsky.jpg"
+                             alt="Plakat des Boxen-Wettkampfs Beljo gegen Paszykowsky." onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/Lukas-Paszykowsky-siegt-Schiedsrichter-hebt-sein-Arm.jpeg"
+                             alt="Paszykowsky's Arm wird vom Schiedsrichter in nach oben gehoben."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/Paszykowsky-Und-Trainer-Ansicht-Rücken-Team-Paszykowsky.JPG"
+                             alt="Team Paszykowsky T-shirts von hinten zu sehen."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Team-Paszykowsky-Ansicht-zugewandt.JPG"
+                             alt="Paszykowsky und Trainer der Kamera zugewandt." onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/Team-Paszykowsky-T-shirt-Ansicht-Rücken.JPG"
+                             alt="Team Paszykowsky T-shirt von hinten zu sehen." onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable" src="../img/optimized/johnReed-Fitnesstudio.jpg" alt="" onclick="showImage(this)">
+                    </a>
+                </div>
+                <!--                new-->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Balance-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas-Paszkowsky. Fitness Training für die Balance im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Beinpresse-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitness Training an der Beinpresse im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Frauen-Klimmzüge-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitness Training, Übung Frauen Klimmzüge im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Klimmzug-Anleitung-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitness Training erklärt die Klimmzugtechnik im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Klimmzug-Anleitung-2-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitness Training erklärt die Klimmzugtechnik im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Koordination-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Koordinationstraining im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Kurzhantel-Schrägbank-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitnesstraining mit Kurzhantel auf der Schrägbank im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Kurzhantel-Schrägbankdrücken-Anleitung-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitnesstraining. Erklärt die Übung mit Kurzhanteln an Schrägbankdrück im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Fitness-Training-Langhantel-Anleitung-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Fitnesstraining. Erklärt die Übung mit der Langhantel im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Training-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Jab-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, Jab, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-left-hook-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, linker Haken, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Rechter-Haken-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, rechter Haken, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Linker-Aufwärtshaken-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, linker Aufwärtshaken im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Linker-Kopfhaken-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, linker Kopfhaken, im  Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-left-uppercut-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, linker Aufwärtshaken, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Right-Jab-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, rechter Jab, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-right-uppercut-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training, rechter Aufwärtshaken, im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Training-3-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Training-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzentraining im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a   class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Verteidigung-Meidbewegungen-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzentraining mit Meidbewegungen im Boxtempel in Berlin."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail clickable"
+                             src="../img/optimized/gallery/PT-Lukas-Paszkowsky-Pratzen-Übung-Boxtempel.JPG"
+                             alt="Personal Training mit Lukas Paszkowsky beim Pratzen Training."
+                             onclick="showImage(this)">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <div class="container video-gallery my-5">
+            <h2 class="display-5 mt-5 mb-0">Videos</h2>
+            <hr class="mt-2 mb-5">
+<!--        <div class="embed-responsive embed-responsive-21by9">-->
+<!--            <iframe class="embed-responsive-item" src="../video/hd0992.mov"></iframe>-->
+<!--        </div>-->
+        </div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="py-3 bg-black">
+    <!-- Footer Elements -->
+    <div class="container">
+        <p class="m-0 margin-t-a text-center text-white small">Copyright &copy; Your Website 2019 | <a
+                href="../static/impressum.html">Impressum</a></p>
+    </div>
+
+    <!-- /.container -->
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
