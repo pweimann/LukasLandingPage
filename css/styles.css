@@ -142,6 +142,7 @@
 
 .bq-berlin {
   min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -174,12 +175,12 @@
 }
 
 section.pricing {
-  background: #007bff;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pricing .card {
+  background-color: aliceblue;
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
@@ -330,6 +331,7 @@ section.pricing {
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: auto;
 }
 
 .sponsor-container a {
@@ -339,6 +341,10 @@ section.pricing {
 .sponsor-container a img {
   width: 15rem;
   height: 15rem;
+}
+
+#haustechnik-logo img {
+  width: 25rem;
 }
 
 @media (max-width: 768px) {
