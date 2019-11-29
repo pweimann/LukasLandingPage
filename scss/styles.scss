@@ -149,8 +149,8 @@
 
 .bq-berlin {
   min-height: 100vh;
-  background: rgba(0, 0,0 ,0.7);
-  //        url("../img/optimized/berlin-map.jpeg");
+  //background: rgba(0, 0,0 ,0.7);
+  ////        url("../img/optimized/berlin-map.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -355,7 +355,15 @@ section.pricing {
 }
 
 #haustechnik-logo img {
-  width: 25rem;
+  width: auto;
+}
+
+#for-you-sponsor img {
+  width: auto;
+}
+
+#khs-sponsor img {
+  width: auto;
 }
 
 
