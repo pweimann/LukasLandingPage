@@ -1,13 +1,3 @@
-# [Start Bootstrap - One Page Wonder](https://startbootstrap.com/template-overviews/one-page-wonder/)
-
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-## Preview
-
-[![One Page Wonder Preview](https://startbootstrap.com/assets/img/screenshots/themes/one-page-wonder.png)](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)**
-
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-one-page-wonder/master/LICENSE)
