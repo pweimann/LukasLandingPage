@@ -142,7 +142,6 @@
 
 .bq-berlin {
   min-height: 100vh;
-  background: url("../img/berlinmap.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -175,12 +174,12 @@
 }
 
 section.pricing {
-  background: #007bff;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pricing .card {
+  background-color: aliceblue;
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
@@ -323,6 +322,34 @@ section.pricing {
 .container .card .face.face2 .content a:hover {
   background: #333;
   color: #fff;
+}
+
+.sponsor-container {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.sponsor-container a {
+  margin: 2rem;
+}
+
+.sponsor-container a img {
+  width: auto;
+  height: 15rem;
+}
+
+@media (max-width: 768px) {
+  .sponsor-container a {
+    margin: 2rem;
+  }
+  .sponsor-container a img {
+    width: 7rem;
+    height: 7rem;
+  }
 }
 
 @media (max-width: 767.98px) {
