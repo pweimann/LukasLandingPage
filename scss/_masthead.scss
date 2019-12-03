@@ -3,20 +3,20 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: //linear-gradient(#777777, transparent 40%),
-  //linear-gradient(to top, #fff, transparent 40%),
-        url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
+  background: url("/img/mobile-header-background-boxen-trainingshalle.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+
   .masthead-content {
-    margin-left: 20rem;
     z-index: 1;
     position: relative;
+
     .masthead-heading {
       font-size: 4rem;
     }
+
     .masthead-subheading {
       font-size: 2rem;
     }
@@ -25,10 +25,16 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
+    background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+
     .masthead-content {
-      margin-left: 26rem;
+      margin-left: 20rem;
       .masthead-heading {
         font-size: 6rem;
       }

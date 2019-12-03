@@ -60,7 +60,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
+  background: url("/img/mobile-header-background-boxen-trainingshalle.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -68,7 +68,6 @@ header.masthead {
 }
 
 header.masthead .masthead-content {
-  margin-left: 20rem;
   z-index: 1;
   position: relative;
 }
@@ -83,11 +82,16 @@ header.masthead .masthead-content .masthead-subheading {
 
 @media (min-width: 992px) {
   header.masthead {
+    background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content {
-    margin-left: 26rem;
+    margin-left: 20rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -210,13 +214,6 @@ header.masthead .masthead-content .masthead-subheading {
   list-style: none;
 }
 
-/**.contact-banner {
-  height: 15rem;
-  width: 100%;
-  background: url("../img/paper-2056027_1920.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 5rem;
-}*/
 .question-banner {
   display: block;
   background-color: rgba(211, 211, 211, 0.5);
@@ -296,6 +293,10 @@ header.masthead .masthead-content .masthead-subheading {
 
 #contact-card i:hover {
   color: #fff;
+}
+
+#h1-training-plan {
+  font-size: 3rem;
 }
 
 section.pricing {

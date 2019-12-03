@@ -85,13 +85,6 @@
   list-style: none;
 }
 
-/**.contact-banner {
-  height: 15rem;
-  width: 100%;
-  background: url("../img/paper-2056027_1920.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 5rem;
-}*/
 .question-banner {
   display: block;
   background-color: rgba(211, 211, 211, 0.5);
@@ -171,6 +164,10 @@
 
 #contact-card i:hover {
   color: #fff;
+}
+
+#h1-training-plan {
+  font-size: 3rem;
 }
 
 section.pricing {
