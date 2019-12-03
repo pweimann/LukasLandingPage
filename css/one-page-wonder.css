@@ -295,6 +295,10 @@ header.masthead .masthead-content .masthead-subheading {
   color: #fff;
 }
 
+#h1-training-plan {
+  font-size: 3rem;
+}
+
 section.pricing {
   background-repeat: no-repeat;
   background-size: cover;
