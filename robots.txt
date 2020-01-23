@@ -1,0 +1,16 @@
+# robots.txt zu https://www.paszkowsky-training.de
+
+User-agent: *
+Disallow: /static/impressum.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /scss/
+Disallow: /vendor/
+Allow: /index.html
+Allow: /contact-me.html
+Allow: /gallery.html
+Allow: /locations.html
+Allow: /service.html
+Allow: /training-plans.html
+
+Sitemap: /sitemap.xml
