@@ -4,7 +4,7 @@ function showImage(image){
     overlay.style.display = "block";
 
     let htmlImageElement = document.createElement("img");
-    htmlImageElement.src = image.src;
+    htmlImageElement.src = image.dataset.full;
     htmlImageElement.style.maxWidth = '90%';
     htmlImageElement.style.maxHeight = '90%';
     htmlImageElement.classList.add('center');
