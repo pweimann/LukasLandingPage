@@ -22,6 +22,7 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/one-page-wonder.min.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 
 <body>
@@ -123,7 +124,7 @@
 </section>
 
 <aside class="additional-information mb-5">
-    <div class="container">
+    <div class="container" data-aos="fade-left">
         <section>
             <div class="container">
                 <div class="row align-items-center">
@@ -145,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-right">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="p-5">
@@ -170,7 +171,7 @@
             </div>
         </section>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-left">
         <section>
             <div class="container">
                 <div class="row align-items-center">
@@ -226,5 +227,13 @@
 </footer>
 <script src="../vendor/jquery/jquery.min.js"></script>
 <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+</script>
 </body>
 </html>
