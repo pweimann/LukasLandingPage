@@ -27,6 +27,8 @@
 }
 .body-wrapper {
   min-height: 100vh;
+  // dirt fix, to prevent user to scroll horizontal. aos adds margin right and therefore it destroys the responsive design
+  overflow-x: hidden;
 }
 
 .main-content {
@@ -43,6 +45,10 @@
 
 .grey-text {
   color: lightgrey;
+}
+
+img.rounded-circle {
+    width: 444px;
 }
 
 .rounded-square {
@@ -225,6 +231,10 @@ section.pricing {
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
+}
+
+.pricing-card-container-height {
+    min-height: 29rem;
 }
 
 /* Hover Effects on Card */
