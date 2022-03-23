@@ -26,22 +26,28 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
+    height: 100vh;
+    background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
-    padding-top: calc(10rem + 55px);
+    padding-top: calc(16rem + 55px);
     padding-bottom: 10rem;
 
     .masthead-content {
-      margin-left: 24rem;
+      .container {
+        padding-left: 20rem;
+      }
       .masthead-heading {
-        font-size: 6rem;
+        font-size: 4rem;
       }
       .masthead-subheading {
-        font-size: 4rem;
+        margin: 2rem;
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: rgba(255, 255, 255, 0.8);
+
       }
     }
   }
