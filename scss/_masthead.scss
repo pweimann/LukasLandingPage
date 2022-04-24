@@ -1,5 +1,18 @@
 header.masthead {
-  position: relative;
+    #background-video {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+  /**  position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
@@ -21,11 +34,11 @@ header.masthead {
     .masthead-subheading {
       font-size: 1rem;
     }
-  }
+  } **/
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  /** header.masthead {
     height: 100vh;
     background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
     background-repeat: no-repeat;
@@ -52,4 +65,5 @@ header.masthead {
       }
     }
   }
+   **/
 }

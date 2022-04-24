@@ -246,32 +246,47 @@ h6 {
 }
 
 header.masthead {
-  position: relative;
+  /**  position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/mobile-header-background-boxen-trainingshalle.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("/img/mobile-header-background-boxen-trainingshalle.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+
+  .masthead-content {
+    z-index: 1;
+    position: relative;
+
+    .masthead-heading {
+      font-size: 2.3rem;
+    }
+
+    .masthead-subheading {
+      font-size: 1rem;
+    }
+  } **/
 }
 
-header.masthead .masthead-content {
-  z-index: 1;
+header.masthead #background-video {
   position: relative;
-}
-
-header.masthead .masthead-content .masthead-heading {
-  font-size: 2.3rem;
-}
-
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 1rem;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  /** header.masthead {
     height: 100vh;
     background: url("../img/optimized/Lukas-Paszkowsky-Boxsack-Boxerstellung.JPG");
     background-repeat: no-repeat;
@@ -280,19 +295,25 @@ header.masthead .masthead-content .masthead-subheading {
     background-size: cover;
     padding-top: calc(16rem + 55px);
     padding-bottom: 10rem;
+
+    .masthead-content {
+
+      .container {
+        padding-left: 20rem;
+      }
+      .masthead-heading {
+        font-size: 4rem;
+      }
+      .masthead-subheading {
+        margin: 2rem;
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: rgba(255, 255, 255, 0.8);
+
+      }
+    }
   }
-  header.masthead .masthead-content .container {
-    padding-left: 20rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    margin: 2rem;
-    font-size: 1.8rem;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 0.8);
-  }
+   **/
 }
 
 .bg-primary {
